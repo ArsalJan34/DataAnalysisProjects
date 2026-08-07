@@ -97,3 +97,50 @@ Pandas provides multiple approaches to merge and concatenate datasets depending 
 ---
 
 _Note: Additional notes and reference material will be appended here in subsequent updates._
+
+## Reference Guide: Histograms and Frequency Distributions
+
+This section covers the fundamentals of histograms, their role in exploratory data analysis (EDA), interpretation of common distribution shapes, and implementation using Matplotlib and Seaborn.
+
+---
+
+### 1. Overview and Importance
+
+- **Histogram:** A graphical representation of a frequency distribution showing how often values in a continuous dataset or variable occur within specified intervals (bins).
+- **Role in EDA:** Helps data professionals identify data shapes, central tendencies, variability, and potential outliers.
+- **Downstream Impact:** Influences critical analytical decisions, such as selecting statistical tests, checking model assumptions, and designing experiments.
+
+---
+
+### 2. Interpreting Histogram Distributions
+
+Evaluating histograms requires examining shape, center (mean/median), and spread (standard deviation/range).
+
+- **Symmetric (Normal / Gaussian):** Bell-shaped curve centered in the middle; data is evenly distributed around the mean.
+- **Right-Skewed (Positive Skew):** Longer tail extends to the right; majority of data points are concentrated on the left.
+- **Left-Skewed (Negative Skew):** Longer tail extends to the left; majority of data points are concentrated on the right.
+- **Bimodal:** Features two distinct peaks, indicating two different modes within the dataset.
+- **Uniform:** Flat distribution across all ranges, indicating equal frequency for all bin intervals.
+
+---
+
+### 3. Creating Histograms in Python
+
+#### Matplotlib: `plt.hist()`
+
+Generates histograms using the `pyplot` interface.
+
+- **Key Parameters:**
+  - `x`: Input data sequence (list, Series, array).
+  - `bins`: Number of bins (int), sequence of bin edges, or string rule.
+- **Syntax / Example:**
+
+  ```python
+  import matplotlib.pyplot as plt
+
+  plt.hist(df['seconds'], bins=range(40, 101, 5))
+  plt.title('Old Faithful Geyser - Time Between Eruptions')
+  plt.xlabel('Seconds')
+  plt.ylabel('Count')
+  plt.show()
+  ```
