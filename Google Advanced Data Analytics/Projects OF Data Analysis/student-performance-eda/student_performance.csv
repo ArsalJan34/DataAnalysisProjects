@@ -1,0 +1,41 @@
+Student,Gender,Subject,Marks,Attendance_%,Exam_Date
+Ali Khan,Male,Mathematics,52,75.0,2025-01-15 09:00:00
+Ahmed Raza,Male,Mathematics,55,80.5,2025-01-15 09:00:00
+Bilal Ahmed,Male,Physics,58,78.0,2025-01-16 11:30:00
+Usman Tariq,Male,Physics,61,82.0,2025-01-16 11:30:00
+Hamza Malik,Male,Chemistry,64,85.0,2025-01-18 10:00:00
+Sara Ali,Female,Mathematics,53,70.0,2025-01-15 09:00:00
+Ayesha Noor,Female,Mathematics,57,76.5,2025-01-15 09:00:00
+Fatima Khan,Female,Physics,62,81.0,2025-01-16 11:30:00
+Zainab Ahmed,Female,Physics,66,88.0,2025-01-16 11:30:00
+Hira Sheikh,Female,Chemistry,69,90.0,2025-01-18 10:00:00
+Daniyal Shah,Male,Mathematics,72,84.0,2025-01-15 09:00:00
+Saad Hussain,Male,Physics,76,89.5,2025-01-16 11:30:00
+Muneeb Ali,Male,Chemistry,81,91.0,2025-01-18 10:00:00
+Iqra Malik,Female,Mathematics,74,86.0,2025-01-15 09:00:00
+Maryam Noor,Female,Chemistry,88,94.0,2025-01-18 10:00:00
+Abdullah Khan,Male,Mathematics,91,96.0,2025-01-15 09:00:00
+Talha Ahmed,Male,Physics,93,98.0,2025-01-16 11:30:00
+Laiba Fatima,Female,Chemistry,95,97.5,2025-01-18 10:00:00
+Mahnoor Ali,Female,Physics,97,99.0,2025-01-16 11:30:00
+Eman Raza,Female,Chemistry,99,100.0,2025-01-18 10:00:00
+Ali Khan,Male,Computer Science,60,78.0,2025-03-10 14:00:00
+Ahmed Raza,Male,Computer Science,63,82.0,2025-03-10 14:00:00
+Bilal Ahmed,Male,Mathematics,65,80.0,2025-03-12 09:00:00
+Usman Tariq,Male,Mathematics,70,84.0,2025-03-12 09:00:00
+Hamza Malik,Male,Physics,68,86.5,2025-03-14 11:30:00
+Sara Ali,Female,Computer Science,58,72.0,2025-03-10 14:00:00
+Ayesha Noor,Female,Computer Science,62,79.0,2025-03-10 14:00:00
+Fatima Khan,Female,Mathematics,67,83.0,2025-03-12 09:00:00
+Zainab Ahmed,Female,Mathematics,71,89.0,2025-03-12 09:00:00
+Hira Sheikh,Female,Physics,73,91.5,2025-03-14 11:30:00
+Daniyal Shah,Male,Computer Science,78,87.0,2025-03-10 14:00:00
+Saad Hussain,Male,Mathematics,82,91.0,2025-03-12 09:00:00
+Muneeb Ali,Male,Physics,85,93.0,2025-03-14 11:30:00
+Iqra Malik,Female,Computer Science,80,88.0,2025-03-10 14:00:00
+Maryam Noor,Female,Physics,91,95.5,2025-03-14 11:30:00
+Abdullah Khan,Male,Computer Science,94,97.0,2025-03-10 14:00:00
+Talha Ahmed,Male,Mathematics,96,99.0,2025-03-12 09:00:00
+Laiba Fatima,Female,Physics,98,98.0,2025-03-14 11:30:00
+Mahnoor Ali,Female,Mathematics,99,100.0,2025-03-12 09:00:00
+Eman Raza,Female,Computer Science,100,100.0,2025-03-10 14:00:00
