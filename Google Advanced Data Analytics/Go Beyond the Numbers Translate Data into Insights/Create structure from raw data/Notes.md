@@ -144,3 +144,62 @@ Generates histograms using the `pyplot` interface.
   plt.ylabel('Count')
   plt.show()
   ```
+
+  ***
+
+## Reference Guide: Data Analysis Glossary (Course 2, Module 2)
+
+This section provides a structured reference glossary covering core data types, file formats, exploratory data analysis (EDA) practices, and dataset operations.
+
+---
+
+### 1. Data File Formats & Sources
+
+- **CSV File:** A simple text file format used to store tabular data, easily imported or stored across databases and platforms.
+- **Database (DB) File:** A structured file used to store relational data in tables, indexes, and fields.
+- **JSON File:** A lightweight data-interchange storage file format saved in JavaScript Object Notation format.
+- **Data Source:** The origin location from which data is extracted.
+- **First-Party Data:** Data collected directly from within your own organization.
+- **Second-Party Data:** Data collected outside your organization directly from the primary source that gathered it.
+- **Third-Party Data:** Data collected and aggregated by outside entities from multiple external sources.
+
+---
+
+### 2. Core Exploratory Data Analysis (EDA) Practices
+
+Exploratory Data Analysis (EDA) involves investigating, organizing, and summarizing datasets to uncover key characteristics. The workflow relies on six primary practices:
+
+1. **Discovering:** Familiarizing yourself with the dataset to conceptualize how to analyze and leverage it.
+2. **Structuring:** Organizing and transforming raw data into structured formats to facilitate visualization and modeling.
+3. **Cleaning:** Removing errors, missing values, duplicates, and inconsistencies that distort analysis.
+4. **Joining:** Augmenting datasets by combining and integrating values from external or related datasets.
+5. **Validating:** Verifying that the processed data is consistent, accurate, and high quality.
+6. **Presenting:** Sharing the cleaned and structured dataset or visual findings with stakeholders for decision-making.
+
+---
+
+### 3. Key Concepts & Frameworks
+
+- **Box Plot:** A graphical visualization displaying data locality, spread, and skewness across quartiles.
+- **Bias:** In data structuring, organizing data into groups or categories that misrepresent the true nature of the entire dataset.
+- **Data Visualization:** Any graphical representation (chart, graph, diagram, dashboard) created to communicate data insights.
+- **Hypothesis:** A testable theory or explanation based on initial evidence that has not yet been refuted.
+- **PACE Framework:** A structured data project workflow standing for **Plan, Analyze, Construct, and Execute**.
+
+---
+
+### 4. Technical Methods & Data Types
+
+- **`df.info()`:** A Pandas method that displays total entries, non-null counts, and data types (`dtypes`) across DataFrame columns.
+- **Extracting:** Retrieving data from primary or secondary data sources for processing.
+- **Filtering:** Selecting a subset of a dataset based on specified conditional constraints.
+- **Grouping:** Aggregating individual observation records based on common categorical values.
+- **Int64:** A standard integer data type representing numbers between $-9 \times 10^{18}$ and $+9 \times 10^{18}$.
+- **Merging:** Combining two or more DataFrames along specified key column(s) or indices.
+- **Slicing:** Subsetting information into smaller portions by positions or labels for detailed examination.
+- **Sorting:** Arranging data rows in a specific numerical or alphabetical order.
+- **String:** A character sequence used to represent textual information.
+
+---
+
+_Note: Additional notes and reference material will be appended here in subsequent updates._
