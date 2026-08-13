@@ -325,3 +325,108 @@ This project provides practice with:
 Use the TLC dataset to **perform EDA, identify useful relationships and insights, create meaningful visualizations, and communicate the findings clearly to both technical and non-technical stakeholders.**
 
 ---
+
+# Module 4 — Automatidata Project Exemplar & Assessment
+
+## 1. Automatidata Project Exemplars
+
+The Course 2 Automatidata project provides completed exemplars to compare against your own work:
+
+- **Course 2 Executive Summary**
+- **Course 2 Tableau Visualization**
+- **Course 2 Automatidata Project Lab**
+
+The exemplars demonstrate **one possible way** to complete the project. Your code, answers, visualization choices, colors, language, and layout may differ.
+
+**Main goal:** Understand the purpose and functionality of each project component rather than copying the exemplar exactly.
+
+---
+
+# 2. Python Notebook Assessment
+
+Compare the exemplar with your completed Python notebook.
+
+### Your Python Notebook Should:
+
+- Include correct code for performing **EDA**
+- Include correct code for creating **data visualizations**
+- Clearly communicate your responses to questions about:
+  - Code input
+  - Results
+  - Analysis
+
+### Important
+
+Your solution does not need to match the exemplar exactly.
+
+Different:
+
+- Code inputs
+- Responses
+- Approaches
+
+can still be correct if you demonstrate an overall understanding of the **purpose and functionality of a Python notebook for data analysis**.
+
+---
+
+# 3. Tableau Visualization Assessment
+
+Compare the Tableau exemplar with the scatterplot you created.
+
+### Your Tableau Visualization Should:
+
+- Use the **same variables identified during your Python EDA**
+- Enhance the scatterplot initially created with Python
+- Clearly and accurately display the data
+- Demonstrate understanding of **Tableau Public** for data visualization
+
+### Important
+
+Your visualization may differ from the exemplar in areas such as:
+
+- Colors
+- Design choices
+- Presentation
+
+The important part is understanding how Tableau Public enhances and communicates the analysis.
+
+---
+
+# 4. Executive Summary Assessment
+
+Compare your completed executive summary with the exemplar.
+
+Your work may differ in:
+
+- Language
+- Answers
+- Layout
+- Template choice
+
+The important goal is understanding the **purpose and organization of an executive summary for a data project**.
+
+### Your Executive Summary Should:
+
+- Include key information to share with teammates and/or stakeholders
+- Communicate results using **clear and concise language**
+
+---
+
+# 5. Overall Project Standard
+
+A strong Course 2 Automatidata project should demonstrate:
+
+**Python EDA → Data Visualization → Tableau Enhancement → Executive Summary → Stakeholder Communication**
+
+### Remember
+
+The exemplar is **one possible solution**, not a requirement to produce identical work.
+
+Focus on:
+
+- Correct analysis
+- Correct code
+- Clear results
+- Accurate visualization
+- Concise communication
+- Understanding the purpose of each project component
