@@ -330,3 +330,134 @@ Verifying that data is consistent and high quality.
 | Outliers         | Abnormally distant observations     |
 | Data Ethics      | Responsible data collection/use     |
 | Data Governance  | Formal data asset management        |
+
+---
+
+# Module 4 — Activity Exemplar: Course 2 TikTok Project
+
+## 1. Purpose of the Exemplar
+
+The exemplars demonstrate possible completed versions of the Course 2:
+
+- Python notebook
+- Tableau visualization
+- Executive summary
+
+The exemplar is **one possible approach**. Your work may differ in language, answers, layout, colors, or visual design.
+
+The main goal is to understand the **purpose and functionality** of each deliverable.
+
+---
+
+# 2. Python Notebook Requirements
+
+Compare your completed Python notebook with the exemplar and identify:
+
+- What you did well
+- Where you can improve
+
+Use this reflection to guide your progress through future projects.
+
+### Your Python Notebook Should:
+
+- Include correct code for performing **EDA**
+- Include correct code for creating **data visualizations**
+- Clearly communicate answers to questions about:
+  - Code input
+  - Results
+
+### Important
+
+Your notebook does **not** need to exactly match the exemplar.
+
+Differences may include:
+
+- Specific language
+- Answers to questions
+- Notebook layout
+
+What matters is understanding the purpose and functionality of a Python notebook for data analysis.
+
+---
+
+# 3. Tableau Visualization Requirements
+
+Compare your Tableau visualization with the exemplar and identify:
+
+- What you did well
+- Where you can improve
+
+### Your Tableau Visualization Should:
+
+- Use the **same variables identified during your Python EDA**
+- Enhance the **scatterplot initially created with Python**
+- Display data clearly and accurately in Tableau Public
+
+### Important
+
+Your visualization may differ from the exemplar in areas such as:
+
+- Colors
+- Visual design
+- Presentation choices
+
+What matters is understanding the purpose and functionality of **Tableau Public for data visualization**.
+
+---
+
+# 4. Executive Summary Requirements
+
+Compare your executive summary with the exemplar and identify:
+
+- What you did well
+- Where you can improve
+
+### Your Executive Summary Should:
+
+- Include key information to share with teammates and/or stakeholders
+- Use **clear and concise language**
+- Effectively communicate your results
+
+### Important
+
+Your executive summary may differ from the exemplar in:
+
+- Language
+- Visual design
+- Presentation style
+
+What matters is understanding the purpose and organization of an executive summary for a data project.
+
+---
+
+# 5. Course 2 Project Quality Checklist
+
+### Python Notebook
+
+- [ ] Correct EDA code
+- [ ] Correct visualization code
+- [ ] Clear explanation of inputs and results
+
+### Tableau
+
+- [ ] Uses variables identified during Python EDA
+- [ ] Enhances the Python scatterplot
+- [ ] Data is clear and accurate
+
+### Executive Summary
+
+- [ ] Contains key findings/information
+- [ ] Appropriate for teammates/stakeholders
+- [ ] Clear and concise communication
+
+---
+
+# 6. Core Principle
+
+**Do not copy the exemplar exactly.**
+
+The exemplar represents **one valid way** to complete the project.
+
+Focus on:
+
+**Correct Analysis → Clear Visualization → Concise Communication → Stakeholder Understanding**

@@ -497,3 +497,395 @@ Create an executive summary to share your results
 
 Key takeaways
 The Google Advanced Data Analytics Certificate end-of-course project is designed for you to practice and apply course skills in a fictional workplace scenario. By completing each course’s end-of-course project, you will have work examples that will enhance your portfolio and showcase your skills for future employers.
+
+---
+
+# Module 4 — Activity Exemplar: Course 2 TikTok Project
+
+## 1. Purpose of the Exemplar
+
+The exemplars demonstrate possible completed versions of the Course 2:
+
+- Python notebook
+- Tableau visualization
+- Executive summary
+
+The exemplar is **one possible approach**. Your work may differ in language, answers, layout, colors, or visual design.
+
+The main goal is to understand the **purpose and functionality** of each deliverable.
+
+---
+
+# 2. Python Notebook Requirements
+
+Compare your completed Python notebook with the exemplar and identify:
+
+- What you did well
+- Where you can improve
+
+Use this reflection to guide your progress through future projects.
+
+### Your Python Notebook Should:
+
+- Include correct code for performing **EDA**
+- Include correct code for creating **data visualizations**
+- Clearly communicate answers to questions about:
+  - Code input
+  - Results
+
+### Important
+
+Your notebook does **not** need to exactly match the exemplar.
+
+Differences may include:
+
+- Specific language
+- Answers to questions
+- Notebook layout
+
+What matters is understanding the purpose and functionality of a Python notebook for data analysis.
+
+---
+
+# 3. Tableau Visualization Requirements
+
+Compare your Tableau visualization with the exemplar and identify:
+
+- What you did well
+- Where you can improve
+
+### Your Tableau Visualization Should:
+
+- Use the **same variables identified during your Python EDA**
+- Enhance the **scatterplot initially created with Python**
+- Display data clearly and accurately in Tableau Public
+
+### Important
+
+Your visualization may differ from the exemplar in areas such as:
+
+- Colors
+- Visual design
+- Presentation choices
+
+What matters is understanding the purpose and functionality of **Tableau Public for data visualization**.
+
+---
+
+# 4. Executive Summary Requirements
+
+Compare your executive summary with the exemplar and identify:
+
+- What you did well
+- Where you can improve
+
+### Your Executive Summary Should:
+
+- Include key information to share with teammates and/or stakeholders
+- Use **clear and concise language**
+- Effectively communicate your results
+
+### Important
+
+Your executive summary may differ from the exemplar in:
+
+- Language
+- Visual design
+- Presentation style
+
+What matters is understanding the purpose and organization of an executive summary for a data project.
+
+---
+
+# 5. Course 2 Project Quality Checklist
+
+### Python Notebook
+
+- [ ] Correct EDA code
+- [ ] Correct visualization code
+- [ ] Clear explanation of inputs and results
+
+### Tableau
+
+- [ ] Uses variables identified during Python EDA
+- [ ] Enhances the Python scatterplot
+- [ ] Data is clear and accurate
+
+### Executive Summary
+
+- [ ] Contains key findings/information
+- [ ] Appropriate for teammates/stakeholders
+- [ ] Clear and concise communication
+
+---
+
+# 6. Core Principle
+
+**Do not copy the exemplar exactly.**
+
+The exemplar represents **one valid way** to complete the project.
+
+Focus on:
+
+**Correct Analysis → Clear Visualization → Concise Communication → Stakeholder Understanding**
+
+---
+
+# Course 2 Waze End-of-Course Portfolio Project
+
+## 1. Project Overview
+
+The Course 2 Waze project focuses on using **Exploratory Data Analysis (EDA)** to organize, understand, and analyze data for a **user churn** project.
+
+This project builds on the **Course 1 project proposal** and continues its milestones through the remaining end-of-course projects.
+
+---
+
+# 2. Waze Project Goal
+
+### Main Goal
+
+Help Waze prevent **monthly user churn**.
+
+### Churn
+
+Churn refers to users who:
+
+- Uninstall the Waze app
+- Stop using the Waze app
+
+A churn prediction model can help Waze:
+
+- Identify users likely to churn
+- Understand why users churn
+- Understand when users churn
+- Improve user retention
+- Optimize retention strategies
+- Improve user experience
+- Support data-driven product decisions
+
+### Example Use Case
+
+If Waze identifies a group of users at high risk of churning, it can proactively engage them with special offers or other retention strategies.
+
+---
+
+# 3. Project Team Role
+
+You collaborate with the Waze team to:
+
+- Analyze data
+- Interpret data
+- Generate insights
+- Support leadership decisions
+- Communicate findings clearly
+
+The project is part of a larger effort to increase Waze's growth through improved user retention.
+
+---
+
+# 4. Project Tasks
+
+Before the Waze team begins further analysis, the project requires:
+
+1. **EDA and data cleaning**
+2. **Select and build visualization types**
+3. **Create plots showing variables and relationships**
+4. **Share results with the data team**
+
+---
+
+# 5. Assignment
+
+You will:
+
+- Conduct EDA on Waze churn data
+- Clean the dataset
+- Create data visualizations
+- Create an executive summary
+- Make visuals understandable and interactive for non-technical stakeholders
+
+---
+
+# 6. Waze Team
+
+## Data Team
+
+| Team Member         | Role                      |
+| ------------------- | ------------------------- |
+| Harriet Hadzic      | Director of Data Analysis |
+| May Santner         | Data Analysis Manager     |
+| Chidi Ga            | Senior Data Analyst       |
+| Sylvester Esperanza | Senior Project Manager    |
+
+### Communication
+
+The data team has technical experience in data analysis and data science.
+
+Communication with them should be:
+
+- Concise
+- Direct
+- To the point
+
+---
+
+## Cross-Functional Team
+
+| Team Member   | Role                                       |
+| ------------- | ------------------------------------------ |
+| Emrick Larson | Finance and Administration Department Head |
+| Ursula Sayo   | Operations Manager                         |
+
+These team members are less technical, so communication should be **adapted to their roles and level of technical knowledge**.
+
+---
+
+# 7. Specific Project Deliverables
+
+Complete the following:
+
+### 1. PACE Strategy
+
+Complete the questions in the **Course 2 PACE strategy document**.
+
+### 2. Jupyter Notebook
+
+Answer the questions in the **Jupyter notebook project file**.
+
+### 3. Data Cleaning & EDA
+
+- Clean the data
+- Perform exploratory data analysis
+
+### 4. Data Visualizations
+
+Create visualizations that communicate important findings.
+
+### 5. Executive Summary
+
+Create an executive summary to share the results with stakeholders.
+
+---
+
+# 8. Core Project Workflow
+
+**PACE → Jupyter Notebook → Clean Data → EDA → Visualize → Executive Summary → Share Insights**
+
+---
+
+# 9. Key Questions
+
+The churn project aims to help answer:
+
+- **Who** is most likely to churn?
+- **Why** do users churn?
+- **When** do users churn?
+
+---
+
+# 10. Project Purpose
+
+The end-of-course project is designed to provide practice applying Course 2 skills in a fictional workplace environment.
+
+Completing the project provides a work example that can:
+
+- Demonstrate data-analysis skills
+- Demonstrate problem-solving
+- Demonstrate communication skills
+- Strengthen a professional portfolio
+- Showcase skills to future employers
+
+---
+
+# Module 4 — Waze Project Exemplar & Assessment
+
+## 1. Course 2 Waze Project Exemplar
+
+The exemplar provides completed examples of:
+
+- **Course 2 Executive Summary**
+- **Course 2 Waze Project Lab**
+- Python notebook for the Waze project
+
+The exemplar is **one possible way** to complete the project. Your code, answers, wording, and layout may differ.
+
+---
+
+# 2. Python Notebook Expectations
+
+Your Python notebook should:
+
+- Include correct code for performing **EDA**
+- Include correct code for creating **data visualizations**
+- Clearly communicate responses to questions about:
+  - Code inputs
+  - Results
+  - Analysis
+
+### Important
+
+Your notebook does **not** need to exactly match the exemplar.
+
+What matters is understanding the:
+
+- Purpose of the Python notebook
+- Functionality of the code
+- EDA process
+- Data visualization process
+- Meaning of the results
+
+---
+
+# 3. Executive Summary Expectations
+
+Your Course 2 Executive Summary should:
+
+- Include key information to share with teammates and/or stakeholders
+- Clearly communicate important results
+- Use **clear and concise language**
+- Effectively communicate findings
+
+Your executive summary may differ from the exemplar in:
+
+- Language
+- Answers
+- Layout
+- Template
+
+What matters is understanding the **purpose and organization of an executive summary for a data project**.
+
+---
+
+# 4. How to Evaluate Your Work
+
+Compare your completed project with the exemplar and ask:
+
+### Python Notebook
+
+- What did I do well?
+- Where can I improve?
+- Is my EDA code correct?
+- Are my visualizations correct?
+- Did I clearly explain my results?
+
+### Executive Summary
+
+- Did I include the most important information?
+- Are my findings clear?
+- Is my language concise?
+- Can stakeholders understand the results?
+
+Use these comparisons to improve your work throughout the end-of-course projects.
+
+---
+
+# 5. Core Principle
+
+**Do not focus on making your project identical to the exemplar.**
+
+Focus on demonstrating:
+
+**Correct Code → EDA → Visualization → Clear Results → Effective Communication**
+
+---
