@@ -25,7 +25,7 @@ continents = ["North America", "Asia", "Europe"]
 
 num_records = 300
 data = {
-    "Company": [f"Company_{i}" for i in range(num_records)],
+    "Company": [f"Company_{i + 1}" for i in range(num_records)],
     "Valuation": [f"${np.random.randint(1, 50)}B" for _ in range(num_records)],
     "Date Joined": pd.date_range(start="2010-01-01", end="2026-03-31", periods=num_records).strftime('%m/%d/%y'),
     "Industry": np.random.choice(industries, size=num_records),
