@@ -692,3 +692,265 @@ A **box plot** visually represents the five-number summary.
 ## Key Takeaway
 
 **Percentiles and quartiles describe where values are located within a dataset. IQR measures the spread of the middle 50%, while the five-number summary and box plot provide a quick overview of the dataset's distribution.**
+
+---
+
+# Basic Statistics — Quick Reference
+
+## 1. Mean
+
+**Definition:** The mean is the **average** of all values in a dataset.
+
+**Formula:**
+
+`Mean = Sum of all values ÷ Number of values`
+
+**Example:**
+
+Data: `2, 4, 6, 8`
+
+`Mean = (2 + 4 + 6 + 8) ÷ 4 = 20 ÷ 4 = 5`
+
+**Mean = 5**
+
+---
+
+## 2. Median
+
+**Definition:** The median is the **middle value** when data is arranged from smallest to largest.
+
+### Odd number of values
+
+Data: `2, 4, 6, 8, 10`
+
+Middle value = `6`
+
+**Median = 6**
+
+### Even number of values
+
+Data: `2, 4, 6, 8`
+
+Middle values = `4, 6`
+
+`Median = (4 + 6) ÷ 2 = 5`
+
+**Median = 5**
+
+---
+
+## 3. Mode
+
+**Definition:** The mode is the value that appears **most frequently** in a dataset.
+
+**Example:**
+
+Data: `2, 3, 3, 4, 5, 3, 6`
+
+`3` appears most often.
+
+**Mode = 3**
+
+> A dataset can have more than one mode or no mode.
+
+---
+
+## 4. Range
+
+**Definition:** The range is the **difference between the largest and smallest values**.
+
+**Formula:**
+
+`Range = Maximum - Minimum`
+
+**Example:**
+
+Data: `10, 15, 20, 25, 30`
+
+`Range = 30 - 10 = 20`
+
+**Range = 20**
+
+---
+
+## 5. Variance
+
+**Definition:** Variance measures how much the data values **vary from the mean**. It is based on the average of the **squared differences from the mean**.
+
+**Example:**
+
+Data: `2, 4, 6`
+
+Mean:
+
+`(2 + 4 + 6) ÷ 3 = 4`
+
+Differences from mean:
+
+`2 - 4 = -2`
+`4 - 4 = 0`
+`6 - 4 = 2`
+
+Square the differences:
+
+`4, 0, 4`
+
+Population variance:
+
+`(4 + 0 + 4) ÷ 3 = 8 ÷ 3 = 2.67`
+
+**Variance ≈ 2.67**
+
+> Variance uses squared values, so its units are also squared.
+
+---
+
+## 6. Standard Deviation
+
+**Definition:** Standard deviation measures how **spread out the values are from the mean**. It represents the typical distance of values from the mean.
+
+- **Small standard deviation** → values are close to the mean.
+- **Large standard deviation** → values are more spread out.
+
+**Example:**
+
+Data: `2, 4, 6`
+
+Population variance ≈ `2.67`
+
+`Standard deviation = √2.67 ≈ 1.63`
+
+**Standard deviation ≈ 1.63**
+
+### Key relationship
+
+`Standard Deviation = √Variance`
+
+---
+
+## 7. Interquartile Range (IQR)
+
+**Definition:** IQR measures the spread of the **middle 50%** of the data.
+
+**Formula:**
+
+`IQR = Q3 - Q1`
+
+Where:
+
+- **Q1** = 25th percentile
+- **Q3** = 75th percentile
+
+**Example:**
+
+`Q1 = 8`
+`Q3 = 14`
+
+`IQR = 14 - 8 = 6`
+
+**IQR = 6**
+
+### Outlier rule
+
+Potential outliers are commonly identified below:
+
+`Q1 - 1.5 × IQR`
+
+or above:
+
+`Q3 + 1.5 × IQR`
+
+> IQR is less affected by extreme values than the range.
+
+---
+
+## 8. Percentile
+
+**Definition:** A percentile shows the **relative position of a value** compared with the rest of the dataset.
+
+Percentiles divide data into **100 parts**.
+
+**Example:**
+
+A student is in the **90th percentile**.
+
+This means the student's score is higher than approximately **90% of the scores**.
+
+### Important
+
+**90% ≠ 90th percentile**
+
+- **90%** → percentage of the test answered correctly.
+- **90th percentile** → relative position compared with other scores.
+
+---
+
+## 9. Quartile
+
+**Definition:** Quartiles divide an ordered dataset into **four parts**, with each part representing approximately 25% of the data.
+
+| Quartile | Percentile | Meaning                    |
+| -------- | ---------: | -------------------------- |
+| **Q1**   |       25th | 25% of values are below Q1 |
+| **Q2**   |       50th | Median                     |
+| **Q3**   |       75th | 75% of values are below Q3 |
+
+### Example
+
+Sorted data:
+
+`[6, 7, 9, 10, 10, 13, 15, 18]`
+
+**Q1:**
+
+Lower half = `[6, 7, 9, 10]`
+
+`Q1 = (7 + 9) ÷ 2 = 8`
+
+**Q2 (Median):**
+
+`Q2 = (10 + 10) ÷ 2 = 10`
+
+**Q3:**
+
+Upper half = `[10, 13, 15, 18]`
+
+`Q3 = (13 + 15) ÷ 2 = 14`
+
+**Result:**
+
+`Q1 = 8`
+`Q2 = 10`
+`Q3 = 14`
+
+---
+
+# Quick Comparison
+
+| Measure                | What it tells you                       |
+| ---------------------- | --------------------------------------- |
+| **Mean**               | Average value                           |
+| **Median**             | Middle value                            |
+| **Mode**               | Most frequent value                     |
+| **Range**              | Overall spread: max − min               |
+| **Variance**           | Average squared variation from the mean |
+| **Standard Deviation** | Typical spread around the mean          |
+| **IQR**                | Spread of the middle 50%                |
+| **Percentile**         | Relative position of a value            |
+| **Quartile**           | Divides data into four parts            |
+
+## Key Formulas
+
+```text
+Mean = Sum of values ÷ Number of values
+
+Range = Maximum − Minimum
+
+Standard Deviation = √Variance
+
+IQR = Q3 − Q1
+
+Q1 = 25th percentile
+Q2 = 50th percentile = Median
+Q3 = 75th percentile
+```
