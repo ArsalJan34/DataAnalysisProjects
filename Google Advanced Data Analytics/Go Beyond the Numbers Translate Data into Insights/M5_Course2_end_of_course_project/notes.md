@@ -889,3 +889,16 @@ Focus on demonstrating:
 **Correct Code → EDA → Visualization → Clear Results → Effective Communication**
 
 ---
+
+Measures of Central Tendency
+
+The mean is the average value, calculated by summing all values and dividing by the number of values.
+The median is the middle value when data is ordered; if even number of values, it is the average of the two middle values.
+Choosing the Right Measure
+
+The mean is sensitive to outliers, which can skew the average.
+The median is more robust when outliers are present, providing a better sense of the typical value.
+The Mode and Its Use
+
+The mode is the most frequently occurring value in a dataset and can be none, one, or multiple modes.
+It is especially useful for categorical data to identify the most common category or value.
