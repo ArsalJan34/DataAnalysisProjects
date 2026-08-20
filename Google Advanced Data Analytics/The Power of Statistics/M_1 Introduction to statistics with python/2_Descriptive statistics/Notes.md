@@ -491,3 +491,204 @@ Standard deviation → Typical spread from the mean
 **Higher standard deviation = more variation**
 
 **Lower standard deviation = less variation**
+
+---
+
+# Measures of Position: Percentiles, Quartiles, IQR & Five-Number Summary
+
+## 1. Measures of Position
+
+Measures of position show the **relative location/rank of a value** compared with other values in a dataset.
+
+They help determine whether a value is in the **lower, middle, or upper portion** of the dataset.
+
+---
+
+## 2. Percentiles
+
+A **percentile** is the value below which a certain percentage of the data falls.
+
+- Percentiles divide data into **100 parts**.
+- Used to compare the relative position of a value.
+
+### Examples
+
+- **99th percentile** → the value is higher than 99% of the data.
+- **75th percentile** → the value is higher than 75% of the data.
+- **50th percentile** → the value is higher than 50% of the data.
+
+### Important: Percentile ≠ Percentage
+
+A test score of **90%** does not necessarily mean the score is in the **90th percentile**.
+
+- **Percentage** = how much of the test you answered correctly.
+- **Percentile** = how your result compares with other people's results.
+
+---
+
+## 3. Quartiles
+
+**Quartiles** divide an ordered dataset into **4 equal parts**.
+
+Each section represents approximately **25% of the data**.
+
+| Quartile | Percentile | Meaning                         |
+| -------- | ---------: | ------------------------------- |
+| **Q1**   |       25th | 25% of values are below it      |
+| **Q2**   |       50th | Median; 50% below and 50% above |
+| **Q3**   |       75th | 75% of values are below it      |
+
+### Quartile Example
+
+Cars sold:
+
+`[18, 13, 6, 10, 15, 7, 10, 9]`
+
+### Step 1: Sort the data
+
+`[6, 7, 9, 10, 10, 13, 15, 18]`
+
+### Step 2: Find Q2 (Median)
+
+Middle values = `10, 10`
+
+`Q2 = (10 + 10) / 2 = 10`
+
+### Step 3: Find Q1
+
+Lower half:
+
+`[6, 7, 9, 10]`
+
+Middle values = `7, 9`
+
+`Q1 = (7 + 9) / 2 = 8`
+
+### Step 4: Find Q3
+
+Upper half:
+
+`[10, 13, 15, 18]`
+
+Middle values = `13, 15`
+
+`Q3 = (13 + 15) / 2 = 14`
+
+### Result
+
+- **Q1 = 8**
+- **Q2 = 10**
+- **Q3 = 14**
+
+Interpretation:
+
+- Lower 25% → **8 or fewer**
+- Middle 50% → **8 to 14**
+- Upper 25% → **14 or more**
+
+> Different methods can calculate quartiles/percentiles. For small datasets, the method used can noticeably affect the result. NumPy's `percentile()` supports multiple calculation methods.
+
+---
+
+## 4. Interquartile Range (IQR)
+
+The **IQR** represents the spread of the **middle 50%** of the dataset.
+
+### Formula
+
+`IQR = Q3 - Q1`
+
+### Example
+
+`Q1 = 8`
+`Q3 = 14`
+
+`IQR = 14 - 8 = 6`
+
+So, the middle 50% of the data spans **6 units**.
+
+### IQR and Outliers
+
+A common rule considers values outside:
+
+`Q1 - (1.5 × IQR)`
+
+and
+
+`Q3 + (1.5 × IQR)`
+
+as potential **outliers**.
+
+### Why IQR is useful
+
+- Measures the spread of the middle 50%.
+- Less affected by extreme values than the range.
+- Useful for identifying potential outliers.
+
+---
+
+## 5. Five-Number Summary
+
+The **five-number summary** describes the main divisions of a dataset:
+
+1. **Minimum**
+2. **Q1**
+3. **Q2 (Median)**
+4. **Q3**
+5. **Maximum**
+
+### Example
+
+For the car-sales dataset:
+
+- Minimum = `6`
+- Q1 = `8`
+- Median/Q2 = `10`
+- Q3 = `14`
+- Maximum = `18`
+
+**Five-number summary:**
+
+`6, 8, 10, 14, 18`
+
+It provides a quick view of:
+
+- Extreme values
+- Center
+- Spread
+- Overall distribution
+
+---
+
+## 6. Box Plot
+
+A **box plot** visually represents the five-number summary.
+
+- **Box** → Q1 to Q3
+- **Line inside box** → Median (Q2)
+- **Lower whisker** → Q1 to minimum
+- **Upper whisker** → Q3 to maximum
+- **Box length** → IQR
+
+### Key idea
+
+`IQR = length of the box = Q3 - Q1`
+
+---
+
+## Quick Reference
+
+| Concept                 | Key Point                                    |
+| ----------------------- | -------------------------------------------- |
+| **Percentile**          | Relative position out of 100 parts           |
+| **Q1**                  | 25th percentile                              |
+| **Q2**                  | 50th percentile / median                     |
+| **Q3**                  | 75th percentile                              |
+| **IQR**                 | Q3 - Q1; middle 50%                          |
+| **Five-number summary** | Min, Q1, Q2, Q3, Max                         |
+| **Box plot**            | Visualizes the five-number summary           |
+| **Outlier rule**        | Below `Q1 - 1.5×IQR` or above `Q3 + 1.5×IQR` |
+
+## Key Takeaway
+
+**Percentiles and quartiles describe where values are located within a dataset. IQR measures the spread of the middle 50%, while the five-number summary and box plot provide a quick overview of the dataset's distribution.**
