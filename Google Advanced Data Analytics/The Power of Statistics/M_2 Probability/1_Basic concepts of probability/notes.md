@@ -75,3 +75,80 @@
 
 - Probability helps data professionals quantify uncertainty and make informed decisions.
 - **Random experiment → outcome → event → probability** are fundamental building blocks for more advanced probability calculations.
+
+# The Probability of Multiple Events
+
+## Types of Events
+
+### Mutually Exclusive Events
+
+- Two events are **mutually exclusive** if they **cannot occur at the same time**.
+- Examples:
+  - A coin toss cannot be both heads and tails.
+  - A single die roll cannot be both 2 and 4.
+
+### Independent Events
+
+- Two events are **independent** if the occurrence of one event **does not affect the probability of the other**.
+- Examples:
+  - Consecutive coin tosses.
+  - Consecutive die rolls.
+
+- Getting a particular result on the first trial does not change the probabilities of the next trial.
+
+## Three Basic Rules of Probability
+
+### 1. Complement Rule
+
+- The **complement** of an event is the event **not occurring**.
+- The probability of an event and its complement always add up to `1`.
+
+**Formula:**
+
+`P(A') = 1 - P(A)`
+
+- `A'` means **not A**.
+- Example: If `P(snow) = 0.4`:
+
+`P(no snow) = 1 - 0.4 = 0.6 = 60%`
+
+### 2. Addition Rule — Mutually Exclusive Events
+
+- Used when events **cannot occur at the same time**.
+- The probability of **A or B** is the sum of their probabilities.
+
+**Formula:**
+
+`P(A or B) = P(A) + P(B)`
+
+**Example: Rolling a 2 or 4**
+
+- `P(2) = 1/6`
+- `P(4) = 1/6`
+
+`P(2 or 4) = 1/6 + 1/6 = 1/3 ≈ 33%`
+
+### 3. Multiplication Rule — Independent Events
+
+- Used when events are **independent**.
+- The probability of **A and B** is the product of their probabilities.
+
+**Formula:**
+
+`P(A and B) = P(A) × P(B)`
+
+**Example: Rolling a 1 and then a 6**
+
+- `P(1) = 1/6`
+- `P(6) = 1/6`
+
+`P(1 and 6) = 1/6 × 1/6 = 1/36 ≈ 2.8%`
+
+## Key Takeaways
+
+- **Mutually exclusive** → events cannot happen together.
+- **Independent** → one event does not affect the other.
+- **Complement rule:** `P(A') = 1 - P(A)`
+- **Addition rule:** `P(A or B) = P(A) + P(B)` for mutually exclusive events.
+- **Multiplication rule:** `P(A and B) = P(A) × P(B)` for independent events.
+- These rules provide a foundation for more complex probability analysis.
