@@ -152,3 +152,82 @@
 - **Addition rule:** `P(A or B) = P(A) + P(B)` for mutually exclusive events.
 - **Multiplication rule:** `P(A and B) = P(A) × P(B)` for independent events.
 - These rules provide a foundation for more complex probability analysis.
+
+# Conditional Probability for Dependent Events
+
+## Dependent Events
+
+- Two events are **dependent** if the occurrence of one event **changes the probability of the other**.
+- The second event is **dependent on** or **conditional on** the first event.
+- Examples:
+  - Getting a good grade depends on studying.
+  - Avoiding a restaurant wait depends on arriving early.
+  - Drawing cards without replacement: the first draw changes the probability of the second draw.
+
+## Conditional Probability
+
+- **Conditional probability** is the probability of an event occurring **given that another event has already occurred**.
+- It is used to describe relationships between dependent events.
+
+### Conditional Probability Formula
+
+`P(A and B) = P(A) × P(B|A)`
+
+- `P(B|A)` means **the probability of B given A**.
+- The `|` symbol indicates that B is conditional on A.
+
+The formula can also be rearranged as:
+
+`P(B|A) = P(A and B) / P(A)`
+
+- Use the form that matches the information provided.
+
+## Independent Events and Conditional Probability
+
+- The conditional probability formula also applies to independent events.
+- For independent events:
+
+`P(B|A) = P(B)`
+
+Therefore:
+
+`P(A and B) = P(A) × P(B)`
+
+This is the multiplication rule for independent events.
+
+## Example: Drawing Two Hearts
+
+A standard deck has **52 cards**, including **13 hearts**.
+
+- First heart:
+
+`P(A) = 13/52 = 25%`
+
+- After drawing a heart, **12 hearts remain out of 51 cards**:
+
+`P(B|A) = 12/51 ≈ 23.5%`
+
+- Probability of drawing two hearts in a row:
+
+`P(A and B) = (13/52) × (12/51) = 1/17 ≈ 5.9%`
+
+The events are dependent because the first draw changes the probability of the second draw.
+
+## Example: Online Purchases
+
+- `20%` of customers spend **$100 or more**.
+- `10%` of those customers receive a gift card.
+- Probability of both events:
+
+`P($100 and gift card) = 0.20 × 0.10 = 0.02 = 2%`
+
+Therefore, there is a **2% probability** that a customer spends $100 or more and receives a gift card.
+
+## Key Takeaways
+
+- **Dependent events:** One event changes the probability of another.
+- **Conditional probability:** Probability of an event given that another event has occurred.
+- `P(A and B) = P(A) × P(B|A)`
+- `P(B|A) = P(A and B) / P(A)`
+- `P(B|A)` is read as **“probability of B given A.”**
+- Conditional probability is useful for analyzing relationships between events and making data-driven predictions.
